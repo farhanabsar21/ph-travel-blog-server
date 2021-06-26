@@ -81,7 +81,7 @@ client.connect(err => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Welcome to the backend!')
+  res.send('Welcome to the PH Travel!')
 })
 
 app.listen(process.env.PORT || port, () => {
